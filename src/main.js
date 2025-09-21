@@ -3,7 +3,7 @@ import iziToast from "izitoast";
 
 
 import { getImagesByQuery } from "./js/pixabay-api";
-import { createGallery, clearGallery, showLoader, hideLoader } from "./js/render-function";
+import { createGallery, clearGallery, showLoader, hideLoader } from "./js/render-functions";
 
 const form = document.querySelector(".form");
 const input = form.querySelector('input[name="search-text"]');
